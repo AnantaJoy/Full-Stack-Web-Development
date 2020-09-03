@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        article{
+            border: 2px solid tomato;
+            border-radius: 10px;
+            margin: 5px;
+            padding: 5px;
+        }
+        .special {
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Exploring DOM</h1>
+            <article>
+                <h2>article-1</h2>
+                <h3 class="author">author-1<h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum laboriosam modi asperiores, laudantium sapiente quibusdam qui animi provident id minima odit voluptate reprehenderit deserunt quasi quas facilis? Velit, cupiditate?</p>
+            </article>
+            <article class="special">
+                <h2>article-2</h2>
+                <h3 class="author">author-2</h3>
+                <p class="description">Adipisci veritatis nobis fuga porro. Veritatis aperiam quas sunt delectus fugit aut laudantium maxime, eveniet dolore id harum adipisci animi in voluptatum? Ipsa itaque beatae delectus voluptatibus non quis nemo.</p>
+            </article>
+            <article >
+                <h2>article-3</h2>
+                <h3 class="author">author-3</h3>
+                <p class="description">Tempora molestias eos nobis. Eos hic natus blanditiis amet, ipsam aliquid quas quibusdam. Maiores, vel? Quae perferendis ex at in numquam exercitationem libero, voluptatibus expedita porro eum inventore perspiciatis vero.</p>
+            </article>
+        </section>
+    </main>
+    <script>
+        var authors = document.getElementsByClassName("author");
+        for (let i = 0; i < authors.length; i++) {
+            const element = authors[i];
+            element.style.color = "green"
+            element.style.fontSize = "120%";
+        }
+    </script>
+</body>
+</html>

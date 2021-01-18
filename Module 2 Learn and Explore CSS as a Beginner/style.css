@@ -1,0 +1,19 @@
+h1 {
+    color: #000;
+}
+h1 {
+    color: yellow !important;
+}
+.list{
+    color: blueviolet;
+}
+/* #order{
+    color:blue;
+} */
+.city {
+    background-color: antiquewhite;
+    border: 5px dashed green;
+    border-radius: 25px;
+    padding: 100px;
+    margin: 50px 100px 150px 200px;
+}

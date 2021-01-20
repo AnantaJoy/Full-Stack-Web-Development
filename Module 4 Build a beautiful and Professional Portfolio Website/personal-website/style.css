@@ -15,7 +15,7 @@ section{
 .half-width {
     width: 40%;
     float: left;
-    margin:7px;
+    margin:7px; 
     padding: 2%;
 }
 
@@ -29,4 +29,34 @@ section{
     border-radius:10px;
     color: whitesmoke;
     font-weight: bold;
+}
+.mid-banner{
+    background-image: url('dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-expo {
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+    height: 200px;
+    margin-left:50px;
+}
+
+.experience {
+    background-image: url('exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient( tomato,blue);
+    border-image-slice: 1;
+}
+
+#junior-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(green,blue);
+    border-image-slice: 1;
 }
